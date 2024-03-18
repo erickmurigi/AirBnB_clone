@@ -1,9 +1,5 @@
-<<<<<<< HEAD
-y: none;
-=======
 .filters {
   display: none;
->>>>>>> e746732d6286cea8984ddcf0e738bf0ddf1f1b0b
 }
 @media only screen and (max-width: 600px) {
 }
@@ -69,6 +65,15 @@ y: none;
     font-size: 14px;
     margin: auto 0 auto 30px;
   }
+/* Focus for ARIA accesibility */
+.locations:focus,
+.amenities:focus {
+  background-color: antiquewhite;
+}
+
+article:focus {
+  background-color: antiquewhite;
+}
 
   /* ================================================================= */
   /* dropdown menu */
